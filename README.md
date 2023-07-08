@@ -2,6 +2,11 @@
 
 Cilj projekta je izrada i programiranje inkubatora koji može da menja i održava temperaturu i vlažnost unutrašnjosti.
 
+
+## Rađeno na seminaru 1.7 - 7.7
+
+Na seminaru se nisam bavio direktno inkubatorom, koliko sam istraživao kako radi arduino, koje su mu limitacije, kao i kako se koristi generalno, jer mi je iskustvo s njim bilo do nivoka paljenja i gašenja dioda, što ne mogu reći da je dovoljno za inkubator.
+
 ## Spisak komponenata 
 
 (07.07.2023) [ovde](https://github.com/KostaJovanovic/Inkubator/blob/main/spisak_komponenata_2.xlsx)
