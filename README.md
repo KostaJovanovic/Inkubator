@@ -4,7 +4,7 @@ Cilj projekta je izrada i programiranje inkubatora koji može da menja i održav
 
 ## Spisak komponenata 
 
-(07.07.2023) [ovde](urlhttps://github.com/KostaJovanovic/Inkubator/blob/main/spisak_komponenata_2.xlsx)
+(07.07.2023) [ovde](https://github.com/KostaJovanovic/Inkubator/blob/main/spisak_komponenata_2.xlsx)
 
 
 Petnički projekat 2023
