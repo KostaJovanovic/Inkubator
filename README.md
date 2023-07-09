@@ -32,10 +32,10 @@ void setup() {
 }
 void loop() {
   serial.print("Prošlo je ");
-  int vreme = millis()/1000;
+  int vreme = millis()/1000; //pretvara milisekunde u sekunde. int pokazuje samo celobrojne, zaokrugljene na najmanji ceo broj.
   serial.print(vreme);
   serial.println(" sekundi.")
-  delay(5000);
+  delay(5000); //čeka 5 sekundi pre nego što krene opet.
 }
 ```
   Ovim kodom, svakih 5 sekundi će arduino ispisati koliko je sekundi prošlo od početka, i mislio sam da sam sve rešio što se toga tiče.
