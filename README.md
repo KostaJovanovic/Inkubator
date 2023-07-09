@@ -10,7 +10,7 @@ Glavna ideja projekta je da za početak napravimo funkcionalni inkubator za mikr
 
 Inkubator će koristiti dva DHT11 senzora za vlagu i temperaturu, grejače iz postolja 3d printera u podu i plafonu. Za kontrolisanje vlažnosti bih kotistio nešto [ovako](https://circuitdigest.com/microcontroller-projects/diy-automatic-portable-humidifier-using-arduino).
 
-Cilj mi je da napravim sličan sistem za kontrolisanje kao što ima [Ender-5 printer](https://youtu.be/Ho8_NnFE0b0?t=184). Specifično se odnosi na jedno dugme koje može da se okreće ali i klikće.
+Cilj mi je da napravim sličan sistem za kontrolisanje kao što ima [Ender-5 printer](https://youtu.be/DkBPf3-xKdY?t=728). Specifično se odnosi na jedno dugme koje može da se okreće ali i klikće.
 
 Takođe, da postoji sistem čuvanja i pravljenja preset-a, koji bi se prebacivali na inkubator preko usb-a ili kabla povezanog za telefon. Trenutna ideja mi je da preset bude u obliku `ime preseta; vreme; temperatura; vlažnost; šta je u inkubatoru; ime osobe koja stavlja` u .txt formatu.
 
