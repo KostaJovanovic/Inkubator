@@ -1,6 +1,6 @@
 # Inkubator
 
-Cilj projekta je izrada i programiranje inkubatora koji može da menja i održava temperaturu i vlažnost unutrašnjosti.
+Cilj projekta je izrada i programiranje inkubatora koji može da menja i održava temperaturu i vlažnost unutrašnjosti, za različite organizme i svrhe, na željeno vreme.
 
 ## Ideja 
 
@@ -16,7 +16,7 @@ Takođe, da postoji sistem čuvanja i pravljenja preset-a, koji bi se prebacival
 
 Treba da ima UV lampu za dezinfekciju, pošto ostali načini (visoka temperatura / ručno čišćenje) nisu izvodljivi ili dovoljno konzistentni.
 
-## Rađeno na seminaru
+## Rađeno na "zimskom" seminaru
 
   Koristio sam Arduino Uno, dht11 senzor za toplotu i vlažnost vazduha. Prva prepreka na koju sam naišao je da sam senzor nije imao nikakav indikator ni koji je model, niti koji pin mu za šta služi.
   Ovo je problem zato što na njemu samom ne piše ni napon na kom radi, niti gde mu je uzemljenje / signal / napajanje
@@ -62,9 +62,9 @@ Za sada, arduino samo prikuplja podatke o temperaturi, vlažnosti i vremenu. Tre
 ## Problemi
 
 Predvidivi problemi su:
-[ ] Kalibracija sistema povratne sprege
-[ ] Nameštanje sistema sa presetima
-[ ] Komunikacija samog inkubatora sa korisnikom (kako javlja da je došlo do greške / da je završio / da je unutrašnja temperatura došla do određenog nivoa itd). Trenutno je cilj da to radi preko piezoelektričnih zvučnika i dioda različitih boja, al blago rečeno, malo mi klimavo to.
+- [ ] Kalibracija sistema povratne sprege
+- [ ] Nameštanje sistema sa presetima
+- [ ] Komunikacija samog inkubatora sa korisnikom (kako javlja da je došlo do greške / da je završio / da je unutrašnja temperatura došla do određenog nivoa itd). Trenutno je cilj da to radi preko piezoelektričnih zvučnika i dioda različitih boja, al blago rečeno, malo mi klimavo to.
 
 
 
