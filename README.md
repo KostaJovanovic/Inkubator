@@ -32,7 +32,8 @@ void setup() {
 }
 void loop() {
   serial.print("Prošlo je ");
-  int vreme = millis()/1000; //pretvara milisekunde u sekunde. int pokazuje samo celobrojne, zaokrugljene na najmanji ceo broj.
+  int vreme = millis()/1000; //pretvara milisekunde u sekunde.
+                             //int pokazuje samo celobrojne, zaokrugljene na najmanji ceo broj.
   serial.print(vreme);
   serial.println(" sekundi.")
   delay(5000); //čeka 5 sekundi pre nego što krene opet.
@@ -42,7 +43,9 @@ void loop() {
 
   Problem je nastao kada je počeo da mi broji vreme unazad. Posle desetak sekundi, dobijao sam da je od početka prošlo oko "-30" sekundi po njegovoj računici. `milis()` u teoriji može da broji oko 50 dana pre nego što pređe preko integer limita i vrati se na početak. Ovaj problem je napravila samo jedna linija koda. `int vreme = millis()/1000;`
 
-  Obična integer promenljiva, koja mi je u ovom slučaju bila vreme, ima kapacitet od 16 bita, što je raspon između `-32,768` i `32,767`. Korišćenjem `long int` umesto samo `int` se ovaj problem popravio, jer long int ima kapacitet od 32 bita, što je od `-2,147,483,648` do `2,147,483,648`. Ludo.
+  Obična integer promenljiva, koja mi je u ovom slučaju bila vreme, ima kapacitet od 16 bita, što je raspon između `-32,768` i `32,767`.
+  
+  Korišćenjem `long int` umesto samo `int` se ovaj problem popravio, jer long int ima kapacitet od 32 bita, što je od `-2,147,483,648` do `2,147,483,648`. Ludo.
 
   Nakon što sam se izborio sa ovim nepredviđenim problemima, počeo sam da razmnatram načine na koje bih mogao da napravim sam inkubator.
 
